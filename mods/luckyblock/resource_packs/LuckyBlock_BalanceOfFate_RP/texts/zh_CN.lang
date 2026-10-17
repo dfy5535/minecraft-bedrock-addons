@@ -1,5 +1,0 @@
-pack.name=万象天平·幸运方块
-pack.description=以材料亲手调律 -100~+100 幸运值，破坏瞬间触发 1000 种随机事件
-tile.lucky:lucky_block.name=万象幸运方块
-item.lucky:fate_tuner=命运调律权杖
-entity.lucky:opening_actor.name=万象开箱演出
