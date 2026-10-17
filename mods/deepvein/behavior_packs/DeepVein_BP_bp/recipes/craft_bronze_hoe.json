@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_bronze_hoe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "## ",
+      " | ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:bronze_ingot"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "deepvein:bronze_hoe",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:bronze_ingot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "lucky:wild_seed",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "lucky:despawn": { "minecraft:instant_despawn": {} }
+    },
+    "components": {
+      "minecraft:collision_box": { "width": 0.2, "height": 0.2 },
+      "minecraft:physics": { "has_gravity": true, "has_collision": true },
+      "minecraft:health": { "value": 20, "max": 20 },
+      "minecraft:knockback_resistance": { "value": 1.0 },
+      "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+      "minecraft:damage_sensor": { "triggers": [{ "deals_damage": false }] }
+    },
+    "events": {
+      "lucky:despawn": { "add": { "component_groups": ["lucky:despawn"] } }
+    }
+  }
+}

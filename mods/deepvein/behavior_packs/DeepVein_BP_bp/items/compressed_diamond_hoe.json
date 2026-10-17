@@ -1,0 +1,69 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "deepvein:compressed_diamond_hoe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.hoe"
+      }
+    },
+    "components": {
+      "minecraft:icon": "deepvein:compressed_diamond_hoe",
+      "minecraft:display_name": {
+        "value": "item.deepvein:compressed_diamond_hoe"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 3200,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:damage": 5,
+      "minecraft:enchantable": {
+        "slot": "hoe",
+        "value": 18
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "deepvein:compressed_diamond"
+            ],
+            "repair_amount": "q.max_durability * 0.25"
+          },
+          {
+            "items": [
+              "deepvein:compressed_diamond_hoe"
+            ],
+            "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool",
+          "minecraft:is_hoe",
+          "minecraft:netherite_tier",
+          "minecraft:diamond_tier",
+          "minecraft:iron_tier",
+          "minecraft:stone_tier"
+        ]
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('minecraft:is_hoe_item_destructible')"
+            },
+            "speed": 13
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+## 矿物果树 Add-On (Ore Trees v1.21.61) 中文语言文件
+pack.name=矿物果树 Add-On (Ore Trees)
+pack.description=种植八大矿物树苗，长出镶嵌矿石结晶的茂密树冠！支持时运附魔与幸运加成概率掉落。
+tile.ore_tree:coal_sapling.name=煤炭树苗
+tile.ore_tree:coal_leaves.name=煤炭矿石树叶
+tile.ore_tree:copper_sapling.name=铜矿树苗
+tile.ore_tree:copper_leaves.name=铜矿矿石树叶
+tile.ore_tree:iron_sapling.name=铁矿树苗
+tile.ore_tree:iron_leaves.name=铁矿矿石树叶
+tile.ore_tree:lapis_sapling.name=青金石树苗
+tile.ore_tree:lapis_leaves.name=青金石矿石树叶
+tile.ore_tree:redstone_sapling.name=红石树苗
+tile.ore_tree:redstone_leaves.name=红石矿石树叶
+tile.ore_tree:gold_sapling.name=黄金树苗
+tile.ore_tree:gold_leaves.name=黄金矿石树叶
+tile.ore_tree:emerald_sapling.name=绿宝石树苗
+tile.ore_tree:emerald_leaves.name=绿宝石矿石树叶
+tile.ore_tree:diamond_sapling.name=钻石树苗
+tile.ore_tree:diamond_leaves.name=钻石矿石树叶

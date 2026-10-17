@@ -1,0 +1,66 @@
+{
+ "format_version": "1.21.60",
+ "minecraft:entity": {
+  "description": {
+   "identifier": "bt:flame_bolt",
+   "is_spawnable": false,
+   "is_summonable": true,
+   "is_experimental": false
+  },
+  "component_groups": {
+   "bt:boom": {
+    "minecraft:explode": {
+     "fuse_length": 0,
+     "fuse_lit": true,
+     "power": 2,
+     "causes_fire": true,
+     "breaks_blocks": false,
+     "destroy_affected_by_griefing": false
+    }
+   }
+  },
+  "components": {
+   "minecraft:type_family": {
+    "family": [
+     "bt_projectile"
+    ]
+   },
+   "minecraft:collision_box": {
+    "width": 0.6,
+    "height": 0.6
+   },
+   "minecraft:physics": {},
+   "minecraft:pushable": {
+    "is_pushable": false,
+    "is_pushable_by_piston": false
+   },
+   "minecraft:health": {
+    "value": 1,
+    "max": 1
+   },
+   "minecraft:fire_immune": {},
+   "minecraft:timer": {
+    "time": 1.2,
+    "looping": false,
+    "time_down_event": {
+     "event": "bt:detonate"
+    }
+   }
+  },
+  "events": {
+   "bt:detonate": {
+    "queue_command": {
+     "command": [
+      "playsound random.explode @a[r=8] ~ ~ ~ 1.0 0.8",
+      "particle minecraft:huge_explosion_emitter ~ ~ ~"
+     ]
+    },
+    "add": {
+     "component_groups": [
+      "bt:boom"
+     ]
+    }
+   }
+  }
+ }
+}

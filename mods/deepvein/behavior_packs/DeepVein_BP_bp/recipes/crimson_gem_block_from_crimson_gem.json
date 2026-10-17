@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:crimson_gem_block_from_crimson_gem"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:crimson_gem"
+      }
+    },
+    "result": {
+      "item": "deepvein:crimson_gem_block",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:crimson_gem"
+      }
+    ]
+  }
+}

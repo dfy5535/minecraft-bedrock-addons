@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "deepvein:mythril_ingot_from_mythril_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "deepvein:mythril_block"
+      }
+    ],
+    "result": {
+      "item": "deepvein:mythril_ingot",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "deepvein:mythril_block"
+      }
+    ]
+  }
+}

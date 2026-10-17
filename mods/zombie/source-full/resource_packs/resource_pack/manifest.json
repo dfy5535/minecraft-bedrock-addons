@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "僵尸纪元 · 资源包 v4.0 扩展版",
+    "description": "僵尸纪元的贴图、模型与音效资源（v4.0 扩展版）。\n【满血版 · 零改动】原样保留 1.26 全部特性（含 behavior.use_kinetic_weapon / freezing_immune / pushable_by_* 等），最低 1.26.51。若你只需 1.21.60 请改用 -1.21.60-compat 版本。",
+    "uuid": "f60243f8-c835-4810-adc3-500dbb7240ff",
+    "version": [
+      4,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      51
+    ]
+  },
+  "modules": [
+    {
+      "description": "Zombie Evolution resources",
+      "type": "resources",
+      "uuid": "a300674f-4a38-436e-bf76-8e3eab395601",
+      "version": [
+        4,
+        1,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "5f85367c-30e5-4393-b956-17d86840eec1",
+      "version": [
+        4,
+        1,
+        0
+      ]
+    }
+  ]
+}

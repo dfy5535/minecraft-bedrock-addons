@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "lucky:lucky_block_feature"
+    },
+    "places_block": "lucky:lucky_block",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_replace": [
+      "minecraft:air",
+      "minecraft:short_grass",
+      "minecraft:tall_grass",
+      "minecraft:fern",
+      "minecraft:snow_layer",
+      "minecraft:deadbush",
+      "minecraft:poppy",
+      "minecraft:dandelion",
+      "minecraft:grass_block"
+    ]
+  }
+}

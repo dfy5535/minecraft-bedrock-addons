@@ -1,0 +1,19 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "deepvein:hellfire_metal_ore_feature"
+    },
+    "count": 4,
+    "replace_rules": [
+      {
+        "places_block": "deepvein:hellfire_metal_ore",
+        "may_replace": [
+          "minecraft:netherrack",
+          "minecraft:blackstone",
+          "minecraft:basalt"
+        ]
+      }
+    ]
+  }
+}

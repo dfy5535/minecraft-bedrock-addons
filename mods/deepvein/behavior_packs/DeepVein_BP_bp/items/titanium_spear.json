@@ -1,0 +1,75 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "deepvein:titanium_spear",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:icon": "deepvein:titanium_spear",
+      "minecraft:display_name": {
+        "value": "item.deepvein:titanium_spear"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:durability": {
+        "max_durability": 2200,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:damage": 9,
+      "minecraft:swing_duration": {
+        "value": 0.62
+      },
+      "minecraft:cooldown": {
+        "category": "deepvein:skill_titanium_spear",
+        "duration": 5.5,
+        "type": "use"
+      },
+      "minecraft:enchantable": {
+        "slot": "melee_spear",
+        "value": 14
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "deepvein:titanium_ingot"
+            ],
+            "repair_amount": "q.max_durability * 0.25"
+          },
+          {
+            "items": [
+              "deepvein:titanium_spear"
+            ],
+            "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool",
+          "minecraft:is_sword",
+          "deepvein:signature_weapon"
+        ]
+      },
+      "minecraft:piercing_weapon": {
+        "reach": {
+          "min": 1.5,
+          "max": 4.6
+        },
+        "creative_reach": {
+          "min": 1.5,
+          "max": 6.5
+        },
+        "hitbox_margin": 0.3
+      }
+    }
+  }
+}

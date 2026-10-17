@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_jade_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:jade"
+      }
+    },
+    "result": {
+      "item": "deepvein:jade_helmet",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:jade"
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "deepvein:sapphire_chestplate",
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/entity/armor/sapphire_chestplate",
+        "enchanted": "textures/misc/enchanted_actor_glint"
+      },
+      "geometry": {
+        "default": "geometry.deepvein.sapphire_chestplate"
+      },
+      "animations": {
+        "idle_aura": "animation.deepvein.sapphire_chestplate.idle_aura",
+        "move_sway": "animation.deepvein.sapphire_chestplate.move_sway",
+        "combat_flex": "animation.deepvein.sapphire_chestplate.combat_flex",
+        "set_burst": "animation.deepvein.sapphire_chestplate.set_burst"
+      },
+      "scripts": {
+        "parent_setup": "v.chest_layer_visible = false;",
+        "animate": [
+          "idle_aura",
+          {
+            "move_sway": "q.modified_move_speed > 0.1"
+          },
+          {
+            "combat_flex": "v.attack_time > 0.0"
+          },
+          {
+            "set_burst": "q.is_sneaking"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.armor"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:celestial_alloy_block_from_celestial_alloy_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:celestial_alloy_ingot"
+      }
+    },
+    "result": {
+      "item": "deepvein:celestial_alloy_block",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:celestial_alloy_ingot"
+      }
+    ]
+  }
+}

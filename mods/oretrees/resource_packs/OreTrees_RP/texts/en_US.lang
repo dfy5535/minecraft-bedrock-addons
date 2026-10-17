@@ -1,0 +1,19 @@
+## Ore Trees Add-On (v1.21.61) English Localization
+pack.name=Ore Trees Add-On
+pack.description=Plant 8 mineral saplings that grow into trees with ore-infused leaves! Supports Fortune and Luck.
+tile.ore_tree:coal_sapling.name=Coal Sapling
+tile.ore_tree:coal_leaves.name=Coal Ore Leaves
+tile.ore_tree:copper_sapling.name=Copper Sapling
+tile.ore_tree:copper_leaves.name=Copper Ore Leaves
+tile.ore_tree:iron_sapling.name=Iron Sapling
+tile.ore_tree:iron_leaves.name=Iron Ore Leaves
+tile.ore_tree:lapis_sapling.name=Lapis Lazuli Sapling
+tile.ore_tree:lapis_leaves.name=Lapis Lazuli Ore Leaves
+tile.ore_tree:redstone_sapling.name=Redstone Sapling
+tile.ore_tree:redstone_leaves.name=Redstone Ore Leaves
+tile.ore_tree:gold_sapling.name=Gold Sapling
+tile.ore_tree:gold_leaves.name=Gold Ore Leaves
+tile.ore_tree:emerald_sapling.name=Emerald Sapling
+tile.ore_tree:emerald_leaves.name=Emerald Ore Leaves
+tile.ore_tree:diamond_sapling.name=Diamond Sapling
+tile.ore_tree:diamond_leaves.name=Diamond Ore Leaves

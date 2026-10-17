@@ -1,0 +1,145 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "deepvein:tin_ore": {
+    "sound": "stone"
+  },
+  "deepvein:tin_block": {
+    "sound": "metal"
+  },
+  "deepvein:zinc_ore": {
+    "sound": "stone"
+  },
+  "deepvein:deepslate_zinc_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:zinc_block": {
+    "sound": "metal"
+  },
+  "deepvein:silver_ore": {
+    "sound": "stone"
+  },
+  "deepvein:deepslate_silver_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:silver_block": {
+    "sound": "metal"
+  },
+  "deepvein:ruby_ore": {
+    "sound": "stone"
+  },
+  "deepvein:deepslate_ruby_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:ruby_block": {
+    "sound": "metal"
+  },
+  "deepvein:sapphire_ore": {
+    "sound": "stone"
+  },
+  "deepvein:deepslate_sapphire_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:sapphire_block": {
+    "sound": "metal"
+  },
+  "deepvein:jade_ore": {
+    "sound": "stone"
+  },
+  "deepvein:jade_block": {
+    "sound": "metal"
+  },
+  "deepvein:deepslate_cobalt_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:cobalt_block": {
+    "sound": "metal"
+  },
+  "deepvein:titanium_ore": {
+    "sound": "stone"
+  },
+  "deepvein:deepslate_titanium_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:titanium_block": {
+    "sound": "metal"
+  },
+  "deepvein:deepslate_platinum_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:platinum_block": {
+    "sound": "metal"
+  },
+  "deepvein:deepslate_mythril_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:mythril_block": {
+    "sound": "metal"
+  },
+  "deepvein:deepslate_adamantite_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:adamantite_block": {
+    "sound": "metal"
+  },
+  "deepvein:deepslate_compressed_diamond_ore": {
+    "sound": "deepslate"
+  },
+  "deepvein:compressed_diamond_block": {
+    "sound": "metal"
+  },
+  "deepvein:blaze_crystal_ore": {
+    "sound": "netherrack"
+  },
+  "deepvein:blaze_crystal_block": {
+    "sound": "metal"
+  },
+  "deepvein:soul_crystal_ore": {
+    "sound": "netherrack"
+  },
+  "deepvein:soul_crystal_block": {
+    "sound": "metal"
+  },
+  "deepvein:crimson_gem_ore": {
+    "sound": "netherrack"
+  },
+  "deepvein:crimson_gem_block": {
+    "sound": "metal"
+  },
+  "deepvein:hellfire_metal_ore": {
+    "sound": "netherrack"
+  },
+  "deepvein:hellfire_metal_block": {
+    "sound": "metal"
+  },
+  "deepvein:void_crystal_ore": {
+    "sound": "stone"
+  },
+  "deepvein:void_crystal_block": {
+    "sound": "metal"
+  },
+  "deepvein:chorus_crystal_ore": {
+    "sound": "stone"
+  },
+  "deepvein:chorus_crystal_block": {
+    "sound": "metal"
+  },
+  "deepvein:ender_alloy_ore": {
+    "sound": "stone"
+  },
+  "deepvein:ender_alloy_block": {
+    "sound": "metal"
+  },
+  "deepvein:bronze_block": {
+    "sound": "metal"
+  },
+  "deepvein:brass_block": {
+    "sound": "metal"
+  },
+  "deepvein:celestial_alloy_block": {
+    "sound": "metal"
+  }
+}

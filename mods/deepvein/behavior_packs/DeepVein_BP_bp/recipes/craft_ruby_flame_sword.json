@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_ruby_flame_sword"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BAB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "deepvein:ruby"
+      },
+      "B": {
+        "item": "deepvein:blaze_crystal"
+      },
+      "C": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "item": "deepvein:ruby_flame_sword",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:ruby"
+      }
+    ]
+  }
+}

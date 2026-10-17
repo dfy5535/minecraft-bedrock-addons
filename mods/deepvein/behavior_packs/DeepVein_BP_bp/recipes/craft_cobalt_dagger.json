@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_cobalt_dagger"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BAB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "deepvein:cobalt_ingot"
+      },
+      "B": {
+        "item": "deepvein:zinc_ingot"
+      },
+      "C": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "deepvein:cobalt_dagger",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:cobalt_ingot"
+      }
+    ]
+  }
+}

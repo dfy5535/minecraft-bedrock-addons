@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "deepvein:blaze_crystal_from_blaze_crystal_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "deepvein:blaze_crystal_block"
+      }
+    ],
+    "result": {
+      "item": "deepvein:blaze_crystal",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "deepvein:blaze_crystal_block"
+      }
+    ]
+  }
+}

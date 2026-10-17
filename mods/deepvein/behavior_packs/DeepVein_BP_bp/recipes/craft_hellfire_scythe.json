@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_hellfire_scythe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BAB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "deepvein:hellfire_ingot"
+      },
+      "B": {
+        "item": "deepvein:crimson_gem"
+      },
+      "C": {
+        "item": "deepvein:blaze_crystal"
+      }
+    },
+    "result": {
+      "item": "deepvein:hellfire_scythe",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:hellfire_ingot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "deepvein:cobalt_axe",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/tools/cobalt_axe",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.deepvein.cobalt_axe"
+      },
+      "animations": {
+        "hold_first_person": "animation.deepvein.cobalt_axe.hold_first_person",
+        "hold_third_person": "animation.deepvein.cobalt_axe.hold_third_person",
+        "idle": "animation.deepvein.cobalt_axe.idle",
+        "attack_swing": "animation.deepvein.cobalt_axe.attack_swing",
+        "skill_cast": "animation.deepvein.cobalt_axe.skill_cast"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "hold_first_person": "c.is_first_person == 1.0"
+          },
+          {
+            "hold_third_person": "c.is_first_person == 0.0"
+          },
+          "idle",
+          {
+            "attack_swing": "v.attack_time > 0.0"
+          },
+          {
+            "skill_cast": "q.is_sneaking && v.attack_time > 0.0"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}

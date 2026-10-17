@@ -1,0 +1,23 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "deepvein:titanium_ore_feature"
+    },
+    "count": 6,
+    "replace_rules": [
+      {
+        "places_block": "deepvein:titanium_ore",
+        "may_replace": [
+          "minecraft:stone"
+        ]
+      },
+      {
+        "places_block": "deepvein:deepslate_titanium_ore",
+        "may_replace": [
+          "minecraft:deepslate"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "deepvein:soul_staff",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:icon": "deepvein:soul_staff",
+      "minecraft:display_name": {
+        "value": "item.deepvein:soul_staff"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:durability": {
+        "max_durability": 2100,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:damage": 7,
+      "minecraft:swing_duration": {
+        "value": 0.5
+      },
+      "minecraft:cooldown": {
+        "category": "deepvein:skill_soul_staff",
+        "duration": 5,
+        "type": "use"
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 25
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "deepvein:soul_crystal"
+            ],
+            "repair_amount": "q.max_durability * 0.25"
+          },
+          {
+            "items": [
+              "deepvein:soul_staff"
+            ],
+            "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_tool",
+          "minecraft:is_sword",
+          "deepvein:signature_weapon"
+        ]
+      }
+    }
+  }
+}

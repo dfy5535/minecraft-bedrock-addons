@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_mythril_greatsword"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BAB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "deepvein:mythril_ingot"
+      },
+      "B": {
+        "item": "deepvein:platinum_ingot"
+      },
+      "C": {
+        "item": "deepvein:silver_ingot"
+      }
+    },
+    "result": {
+      "item": "deepvein:mythril_greatsword",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:mythril_ingot"
+      }
+    ]
+  }
+}

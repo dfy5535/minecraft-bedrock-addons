@@ -1,0 +1,208 @@
+{
+  "resource_pack_name": "ore_trees_rp",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "ore_tree_coal_sapling": {
+      "textures": [
+        "textures/blocks/coal_sapling"
+      ]
+    },
+    "ore_tree_copper_sapling": {
+      "textures": [
+        "textures/blocks/copper_sapling"
+      ]
+    },
+    "ore_tree_iron_sapling": {
+      "textures": [
+        "textures/blocks/iron_sapling"
+      ]
+    },
+    "ore_tree_lapis_sapling": {
+      "textures": [
+        "textures/blocks/lapis_sapling"
+      ]
+    },
+    "ore_tree_redstone_sapling": {
+      "textures": [
+        "textures/blocks/redstone_sapling"
+      ]
+    },
+    "ore_tree_gold_sapling": {
+      "textures": [
+        "textures/blocks/gold_sapling"
+      ]
+    },
+    "ore_tree_emerald_sapling": {
+      "textures": [
+        "textures/blocks/emerald_sapling"
+      ]
+    },
+    "ore_tree_diamond_sapling": {
+      "textures": [
+        "textures/blocks/diamond_sapling"
+      ]
+    },
+    "ore_tree_coal_leaves_top": {
+      "textures": [
+        "textures/blocks/coal_leaves_top"
+      ]
+    },
+    "ore_tree_coal_leaves_right": {
+      "textures": [
+        "textures/blocks/coal_leaves_right"
+      ]
+    },
+    "ore_tree_coal_leaves_left": {
+      "textures": [
+        "textures/blocks/coal_leaves_left"
+      ]
+    },
+    "ore_tree_copper_leaves_top": {
+      "textures": [
+        "textures/blocks/copper_leaves_top"
+      ]
+    },
+    "ore_tree_copper_leaves_right": {
+      "textures": [
+        "textures/blocks/copper_leaves_right"
+      ]
+    },
+    "ore_tree_copper_leaves_left": {
+      "textures": [
+        "textures/blocks/copper_leaves_left"
+      ]
+    },
+    "ore_tree_iron_leaves_top": {
+      "textures": [
+        "textures/blocks/iron_leaves_top"
+      ]
+    },
+    "ore_tree_iron_leaves_right": {
+      "textures": [
+        "textures/blocks/iron_leaves_right"
+      ]
+    },
+    "ore_tree_iron_leaves_left": {
+      "textures": [
+        "textures/blocks/iron_leaves_left"
+      ]
+    },
+    "ore_tree_lapis_leaves_top": {
+      "textures": [
+        "textures/blocks/lapis_leaves_top"
+      ]
+    },
+    "ore_tree_lapis_leaves_right": {
+      "textures": [
+        "textures/blocks/lapis_leaves_right"
+      ]
+    },
+    "ore_tree_lapis_leaves_left": {
+      "textures": [
+        "textures/blocks/lapis_leaves_left"
+      ]
+    },
+    "ore_tree_redstone_leaves_top": {
+      "textures": [
+        "textures/blocks/redstone_leaves_top"
+      ]
+    },
+    "ore_tree_redstone_leaves_right": {
+      "textures": [
+        "textures/blocks/redstone_leaves_right"
+      ]
+    },
+    "ore_tree_redstone_leaves_left": {
+      "textures": [
+        "textures/blocks/redstone_leaves_left"
+      ]
+    },
+    "ore_tree_gold_leaves_top": {
+      "textures": [
+        "textures/blocks/gold_leaves_top"
+      ]
+    },
+    "ore_tree_gold_leaves_right": {
+      "textures": [
+        "textures/blocks/gold_leaves_right"
+      ]
+    },
+    "ore_tree_gold_leaves_left": {
+      "textures": [
+        "textures/blocks/gold_leaves_left"
+      ]
+    },
+    "ore_tree_emerald_leaves_top": {
+      "textures": [
+        "textures/blocks/emerald_leaves_top"
+      ]
+    },
+    "ore_tree_emerald_leaves_right": {
+      "textures": [
+        "textures/blocks/emerald_leaves_right"
+      ]
+    },
+    "ore_tree_emerald_leaves_left": {
+      "textures": [
+        "textures/blocks/emerald_leaves_left"
+      ]
+    },
+    "ore_tree_diamond_leaves_top": {
+      "textures": [
+        "textures/blocks/diamond_leaves_top"
+      ]
+    },
+    "ore_tree_diamond_leaves_right": {
+      "textures": [
+        "textures/blocks/diamond_leaves_right"
+      ]
+    },
+    "ore_tree_diamond_leaves_left": {
+      "textures": [
+        "textures/blocks/diamond_leaves_left"
+      ]
+    },
+    "ore_tree_coal_leaves_crystal": {
+      "textures": [
+        "textures/blocks/coal_leaves_crystal"
+      ]
+    },
+    "ore_tree_copper_leaves_crystal": {
+      "textures": [
+        "textures/blocks/copper_leaves_crystal"
+      ]
+    },
+    "ore_tree_iron_leaves_crystal": {
+      "textures": [
+        "textures/blocks/iron_leaves_crystal"
+      ]
+    },
+    "ore_tree_lapis_leaves_crystal": {
+      "textures": [
+        "textures/blocks/lapis_leaves_crystal"
+      ]
+    },
+    "ore_tree_redstone_leaves_crystal": {
+      "textures": [
+        "textures/blocks/redstone_leaves_crystal"
+      ]
+    },
+    "ore_tree_gold_leaves_crystal": {
+      "textures": [
+        "textures/blocks/gold_leaves_crystal"
+      ]
+    },
+    "ore_tree_emerald_leaves_crystal": {
+      "textures": [
+        "textures/blocks/emerald_leaves_crystal"
+      ]
+    },
+    "ore_tree_diamond_leaves_crystal": {
+      "textures": [
+        "textures/blocks/diamond_leaves_crystal"
+      ]
+    }
+  }
+}

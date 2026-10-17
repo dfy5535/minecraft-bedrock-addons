@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "deepvein:smelt_void_crystal_ore"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "deepvein:void_crystal_ore",
+    "output": "deepvein:void_crystal"
+  }
+}

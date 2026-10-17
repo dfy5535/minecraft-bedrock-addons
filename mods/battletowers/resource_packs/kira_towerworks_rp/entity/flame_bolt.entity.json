@@ -1,0 +1,31 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:client_entity": {
+  "description": {
+   "identifier": "bt:flame_bolt",
+   "min_engine_version": "1.21.60",
+   "materials": {
+    "default": "entity_alphatest"
+   },
+   "textures": {
+    "default": "textures/entity/bt/flame_bolt"
+   },
+   "geometry": {
+    "default": "geometry.bt.flame_bolt"
+   },
+   "animations": {
+    "spin": "animation.bt.flame_bolt.spin",
+    "pulse": "animation.bt.flame_bolt.pulse"
+   },
+   "scripts": {
+    "animate": [
+     "spin",
+     "pulse"
+    ]
+   },
+   "render_controllers": [
+    "controller.render.bt.flame_bolt"
+   ]
+  }
+ }
+}

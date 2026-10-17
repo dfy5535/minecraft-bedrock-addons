@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_silver_pickaxe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      " | ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:silver_ingot"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "deepvein:silver_pickaxe",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:silver_ingot"
+      }
+    ]
+  }
+}

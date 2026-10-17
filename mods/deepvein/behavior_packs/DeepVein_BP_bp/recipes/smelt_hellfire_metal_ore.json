@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "deepvein:smelt_hellfire_metal_ore"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "deepvein:hellfire_metal_ore",
+    "output": "deepvein:hellfire_ingot"
+  }
+}

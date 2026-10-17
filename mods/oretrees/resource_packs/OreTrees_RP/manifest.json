@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "矿物果树材质包 (Ore Trees RP) v1.21.61",
+    "description": "矿物树苗与矿石树叶高清原版像素风纹理与中文语言支持。",
+    "uuid": "b5c9d0e1-2345-4f6a-9b0c-1d2e3f4a5b61",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "description": "Ore Trees Resource Pack",
+      "type": "resources",
+      "uuid": "b5c9d0e1-2345-4f6a-9b0c-1d2e3f4a5b62",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

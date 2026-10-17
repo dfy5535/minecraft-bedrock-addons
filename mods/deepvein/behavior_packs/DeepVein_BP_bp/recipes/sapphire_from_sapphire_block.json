@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "deepvein:sapphire_from_sapphire_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "deepvein:sapphire_block"
+      }
+    ],
+    "result": {
+      "item": "deepvein:sapphire",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "deepvein:sapphire_block"
+      }
+    ]
+  }
+}

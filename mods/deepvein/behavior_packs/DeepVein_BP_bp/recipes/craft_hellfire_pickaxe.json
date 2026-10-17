@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_hellfire_pickaxe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      " | ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:hellfire_ingot"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "deepvein:hellfire_pickaxe",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:hellfire_ingot"
+      }
+    ]
+  }
+}

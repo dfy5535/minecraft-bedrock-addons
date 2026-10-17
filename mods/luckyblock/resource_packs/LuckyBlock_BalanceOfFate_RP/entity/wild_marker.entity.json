@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:wild_marker",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/lucky_invisible"
+      },
+      "geometry": {
+        "default": "geometry.lucky_invisible"
+      },
+      "render_controllers": [
+        "controller.render.lucky_invisible"
+      ]
+    }
+  }
+}

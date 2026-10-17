@@ -1,0 +1,53 @@
+{
+  "resource_pack_name": "balance_of_fate",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "lucky_block_tier0_top": {
+      "textures": "textures/blocks/lucky_block_tier0_top"
+    },
+    "lucky_block_tier0_right": {
+      "textures": "textures/blocks/lucky_block_tier0_right"
+    },
+    "lucky_block_tier0_left": {
+      "textures": "textures/blocks/lucky_block_tier0_left"
+    },
+    "lucky_block_tier1_top": {
+      "textures": "textures/blocks/lucky_block_tier1_top"
+    },
+    "lucky_block_tier1_right": {
+      "textures": "textures/blocks/lucky_block_tier1_right"
+    },
+    "lucky_block_tier1_left": {
+      "textures": "textures/blocks/lucky_block_tier1_left"
+    },
+    "lucky_block_tier2_top": {
+      "textures": "textures/blocks/lucky_block_tier2_top"
+    },
+    "lucky_block_tier2_right": {
+      "textures": "textures/blocks/lucky_block_tier2_right"
+    },
+    "lucky_block_tier2_left": {
+      "textures": "textures/blocks/lucky_block_tier2_left"
+    },
+    "lucky_block_tier3_top": {
+      "textures": "textures/blocks/lucky_block_tier3_top"
+    },
+    "lucky_block_tier3_right": {
+      "textures": "textures/blocks/lucky_block_tier3_right"
+    },
+    "lucky_block_tier3_left": {
+      "textures": "textures/blocks/lucky_block_tier3_left"
+    },
+    "lucky_block_tier4_top": {
+      "textures": "textures/blocks/lucky_block_tier4_top"
+    },
+    "lucky_block_tier4_right": {
+      "textures": "textures/blocks/lucky_block_tier4_right"
+    },
+    "lucky_block_tier4_left": {
+      "textures": "textures/blocks/lucky_block_tier4_left"
+    }
+  }
+}

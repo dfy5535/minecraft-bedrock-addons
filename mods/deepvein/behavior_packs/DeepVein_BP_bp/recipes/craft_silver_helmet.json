@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_silver_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:silver_ingot"
+      }
+    },
+    "result": {
+      "item": "deepvein:silver_helmet",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:silver_ingot"
+      }
+    ]
+  }
+}

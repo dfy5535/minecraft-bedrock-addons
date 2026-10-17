@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "deepvein:silver_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:icon": "deepvein:silver_leggings",
+      "minecraft:display_name": {
+        "value": "item.deepvein:silver_leggings"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "uncommon",
+      "minecraft:enchantable": {
+        "slot": "armor_legs",
+        "value": 22
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      },
+      "minecraft:durability": {
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        },
+        "max_durability": 240
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "deepvein:silver_ingot"
+            ],
+            "repair_amount": "q.max_durability * 0.25"
+          },
+          {
+            "items": [
+              "deepvein:silver_leggings"
+            ],
+            "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "deepvein:platinum_ingot_from_platinum_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "deepvein:platinum_block"
+      }
+    ],
+    "result": {
+      "item": "deepvein:platinum_ingot",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "deepvein:platinum_block"
+      }
+    ]
+  }
+}

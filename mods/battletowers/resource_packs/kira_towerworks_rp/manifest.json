@@ -1,0 +1,45 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§6§l战斗高塔 §r§e资源包 §7(3D 守卫者)",
+    "description": "§750 变体高塔 · 10 原型守卫者 3D 模型/动画\n§8KIRA Lab / DSH",
+    "uuid": "42b1b9e9-13ea-4017-a5b9-a189681384a4",
+    "version": [
+      2,
+      1,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "671116b0-c19a-4bcd-a81d-ff5cbdaa6745",
+      "version": [
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "1785c0ca-f2db-4cea-a4f2-6e9da38f0cb9",
+      "version": [
+        2,
+        1,
+        1
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "KIRA Lab / DSH"
+    ],
+    "license": "internal"
+  }
+}

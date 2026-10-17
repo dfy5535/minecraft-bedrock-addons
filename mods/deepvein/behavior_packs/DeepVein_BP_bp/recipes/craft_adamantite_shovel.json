@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_adamantite_shovel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " # ",
+      " | ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:adamantite_ingot"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "deepvein:adamantite_shovel",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:adamantite_ingot"
+      }
+    ]
+  }
+}

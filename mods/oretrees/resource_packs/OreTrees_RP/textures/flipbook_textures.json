@@ -1,0 +1,114 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/coal_leaves_crystal",
+    "atlas_tile": "ore_tree_coal_leaves_crystal",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/copper_leaves_crystal",
+    "atlas_tile": "ore_tree_copper_leaves_crystal",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/iron_leaves_crystal",
+    "atlas_tile": "ore_tree_iron_leaves_crystal",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/lapis_leaves_crystal",
+    "atlas_tile": "ore_tree_lapis_leaves_crystal",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/redstone_leaves_crystal",
+    "atlas_tile": "ore_tree_redstone_leaves_crystal",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/gold_leaves_crystal",
+    "atlas_tile": "ore_tree_gold_leaves_crystal",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/emerald_leaves_crystal",
+    "atlas_tile": "ore_tree_emerald_leaves_crystal",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/diamond_leaves_crystal",
+    "atlas_tile": "ore_tree_diamond_leaves_crystal",
+    "ticks_per_frame": 5,
+    "frames": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      1
+    ],
+    "blend_frames": false
+  }
+]

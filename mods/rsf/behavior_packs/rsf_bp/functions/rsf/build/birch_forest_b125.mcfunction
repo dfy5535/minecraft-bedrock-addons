@@ -1,0 +1,117 @@
+# ============================================================================
+# RSF v3.0 完整版 | 全局建筑唯一编号: #0381/4224 | 主题内编号: b125/128
+# 地形主题 #03: 白桦森林与变异桦林 (birch_forest) —— 带白桦高挑采光窗与蜂巢花架
+# 建筑名称: 白桦蜂语系·巨型阶梯金字塔神王殿 (birch_forest_grand_ziggurat_temple)
+# 建筑构造: 主体[stepped_ziggurat] + 屋顶[pyramid_stepped] + 地宫[portal_chamber] + 外翼[totem_ring] + 地形专有结构 + 内饰[kit_campfire]
+# 建筑规模: 平面 17x15 | 地上高度 8格 | 地下深度 4格
+# 适用群系: birch_forest, birch_forest_hills, birch_forest_mutated, birch_forest_hills_mutated
+# ============================================================================
+
+# --- [阶段 1] 环境清理与防悬空阶梯地基 ---
+fill ~-9 ~1 ~-8 ~9 ~12 ~8 air [] replace leaves
+fill ~-9 ~1 ~-8 ~9 ~12 ~8 air [] replace leaves2
+fill ~-9 ~1 ~-8 ~9 ~12 ~8 air [] replace log
+fill ~-9 ~1 ~-8 ~9 ~12 ~8 air [] replace log2
+fill ~-8 ~-5 ~-7 ~8 ~-1 ~7 calcite [] replace air
+fill ~-8 ~-5 ~-7 ~8 ~-1 ~7 calcite [] replace water
+fill ~-8 ~0 ~-7 ~8 ~0 ~7 stone_brick_slab [] replace air
+fill ~-7 ~0 ~-6 ~7 ~0 ~6 stone_bricks []
+fill ~-6 ~0 ~-5 ~6 ~0 ~5 stone_bricks []
+setblock ~0 ~0 ~0 bookshelf []
+
+# --- [阶段 2] 地下结构 (portal_chamber) ---
+fill ~-6 ~-4 ~-5 ~6 ~-1 ~5 mossy_cobblestone []
+fill ~-5 ~-5 ~-4 ~5 ~-1 ~4 air []
+fill ~-1 ~-5 ~-1 ~1 ~-5 ~1 obsidian []
+setblock ~0 ~-5 ~0 bookshelf []
+setblock ~0 ~-6 ~0 lantern []
+fill ~0 ~-5 ~-4 ~0 ~0 ~-4 ladder ["facing_direction"=3]
+setblock ~5 ~-3 ~0 chest ["facing_direction"=4]
+replaceitem block ~5 ~-3 ~0 slot.container 0 spider_eye 6
+replaceitem block ~5 ~-3 ~0 slot.container 1 feather 11
+replaceitem block ~5 ~-3 ~0 slot.container 2 phantom_membrane 6
+replaceitem block ~5 ~-3 ~0 slot.container 3 rotten_flesh 15
+replaceitem block ~5 ~-3 ~0 slot.container 4 bone 14
+replaceitem block ~5 ~-3 ~0 slot.container 5 string 15
+replaceitem block ~5 ~-3 ~0 slot.container 9 torch 17
+replaceitem block ~5 ~-3 ~0 slot.container 10 honeycomb 8
+replaceitem block ~5 ~-3 ~0 slot.container 11 honey_bottle 6
+replaceitem block ~5 ~-3 ~0 slot.container 12 birch_log 20
+replaceitem block ~5 ~-3 ~0 slot.container 13 cooked_chicken 13
+replaceitem block ~5 ~-3 ~0 slot.container 14 iron_ingot 11
+loot insert ~5 ~-3 ~0 loot "rsf/birch_forest"
+loot insert ~5 ~-3 ~0 loot "chests/village/village_taiga_house"
+
+# --- [阶段 3] 主体平面与空间几何 (stepped_ziggurat) ---
+fill ~-7 ~1 ~-6 ~7 ~2 ~6 calcite []
+fill ~-6 ~3 ~-5 ~6 ~4 ~5 birch_planks []
+fill ~-5 ~5 ~-4 ~5 ~8 ~4 mossy_cobblestone []
+fill ~-5 ~1 ~-4 ~5 ~7 ~4 air []
+fill ~0 ~1 ~-6 ~0 ~4 ~-6 birch_stairs ["weirdo_direction"=2]
+fill ~0 ~1 ~-5 ~0 ~3 ~-4 air []
+
+# --- [阶段 4] 屋顶与天际线构造 (pyramid_stepped) ---
+fill ~-7 ~9 ~-6 ~7 ~9 ~6 birch_planks []
+fill ~-6 ~10 ~-5 ~6 ~10 ~5 mossy_cobblestone []
+fill ~-1 ~11 ~-1 ~1 ~11 ~1 bookshelf []
+setblock ~0 ~12 ~0 lantern []
+
+# --- [阶段 5] 外部附属建筑与护卫设施 (totem_ring) ---
+fill ~0 ~0 ~-8 ~0 ~3 ~-8 birch_log []
+setblock ~0 ~4 ~-8 gold_block []
+setblock ~0 ~5 ~-8 lantern []
+fill ~0 ~0 ~8 ~0 ~3 ~8 birch_log []
+setblock ~0 ~4 ~8 gold_block []
+setblock ~0 ~5 ~8 lantern []
+fill ~-9 ~0 ~0 ~-9 ~3 ~0 birch_log []
+setblock ~-9 ~4 ~0 gold_block []
+setblock ~-9 ~5 ~0 lantern []
+fill ~9 ~0 ~0 ~9 ~3 ~0 birch_log []
+setblock ~9 ~4 ~0 gold_block []
+setblock ~9 ~5 ~0 lantern []
+
+# --- [阶段 5.5] 地形专属标志性结构 (birch_forest 独有建筑构件 | 几何特征参数 8x9x5) ---
+fill ~8 ~0 ~-2 ~9 ~0 ~2 stone_bricks []
+fill ~9 ~1 ~-2 ~9 ~6 ~-2 birch_log []
+fill ~9 ~1 ~2 ~9 ~6 ~2 birch_log []
+fill ~8 ~7 ~-2 ~9 ~7 ~2 stone_brick_slab []
+setblock ~8 ~1 ~1 honeycomb_block []
+
+# --- [阶段 6] 室内生存设施与工作站组合 (kit_campfire) ---
+setblock ~0 ~7 ~0 lantern []
+setblock ~0 ~1 ~0 campfire []
+setblock ~-5 ~1 ~4 smoker []
+setblock ~5 ~1 ~4 crafting_table []
+
+# --- [阶段 7] 野生建筑宝箱填充 (怪物掉落物+生存物资) 与驻守实体群 ---
+setblock ~6 ~1 ~4 chest ["facing_direction"=2]
+replaceitem block ~6 ~1 ~4 slot.container 0 spider_eye 9
+replaceitem block ~6 ~1 ~4 slot.container 1 feather 14
+replaceitem block ~6 ~1 ~4 slot.container 2 phantom_membrane 9
+replaceitem block ~6 ~1 ~4 slot.container 3 rotten_flesh 10
+replaceitem block ~6 ~1 ~4 slot.container 4 bone 9
+replaceitem block ~6 ~1 ~4 slot.container 5 string 10
+replaceitem block ~6 ~1 ~4 slot.container 9 cooked_chicken 11
+replaceitem block ~6 ~1 ~4 slot.container 10 iron_ingot 9
+replaceitem block ~6 ~1 ~4 slot.container 11 coal 15
+replaceitem block ~6 ~1 ~4 slot.container 12 golden_carrot 10
+replaceitem block ~6 ~1 ~4 slot.container 13 iron_sword 1
+replaceitem block ~6 ~1 ~4 slot.container 14 shears 1
+loot insert ~6 ~1 ~4 loot "rsf/birch_forest"
+setblock ~-6 ~1 ~5 chest ["facing_direction"=2]
+replaceitem block ~-6 ~1 ~5 slot.container 0 phantom_membrane 4
+replaceitem block ~-6 ~1 ~5 slot.container 1 rotten_flesh 13
+replaceitem block ~-6 ~1 ~5 slot.container 2 bone 12
+replaceitem block ~-6 ~1 ~5 slot.container 3 string 13
+replaceitem block ~-6 ~1 ~5 slot.container 4 gunpowder 12
+replaceitem block ~-6 ~1 ~5 slot.container 5 arrow 23
+replaceitem block ~-6 ~1 ~5 slot.container 9 cooked_chicken 9
+replaceitem block ~-6 ~1 ~5 slot.container 10 iron_ingot 7
+replaceitem block ~-6 ~1 ~5 slot.container 11 coal 13
+replaceitem block ~-6 ~1 ~5 slot.container 12 golden_carrot 8
+replaceitem block ~-6 ~1 ~5 slot.container 13 iron_sword 1
+replaceitem block ~-6 ~1 ~5 slot.container 14 shears 1
+loot insert ~-6 ~1 ~5 loot "rsf/birch_forest"
+loot insert ~-6 ~1 ~5 loot "chests/village/village_taiga_house"
+summon pillager ~0 ~1 ~-1
+summon bee ~-1 ~1 ~1

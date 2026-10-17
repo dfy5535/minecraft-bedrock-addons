@@ -1,0 +1,34 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "deepvein:craft_brass_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "deepvein:zinc_ingot"
+      },
+      {
+        "item": "deepvein:zinc_ingot"
+      }
+    ],
+    "result": {
+      "item": "deepvein:brass_ingot",
+      "count": 4
+    },
+    "unlock": [
+      {
+        "item": "deepvein:zinc_ingot"
+      }
+    ]
+  }
+}

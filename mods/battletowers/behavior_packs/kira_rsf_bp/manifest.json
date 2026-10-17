@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§b野外随机生成框架 §7RSF v2.1.0",
+    "description": "§7通用「选址 + 逐块建造 + 防重叠 + 回执」框架\n§7v2.0.0：新增纯指令逐块建造模板，支持主世界/下界/末地\n§8改 rsf_config 与 rsf_build_steps 即可复用",
+    "uuid": "9d744588-3d16-43d6-92c1-b12bd8893828",
+    "version": [
+      2,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "43630730-824e-41a6-865a-a207bdecc3b9",
+      "version": [
+        2,
+        1,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "deepvein:brass_ingot_from_brass_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "deepvein:brass_block"
+      }
+    ],
+    "result": {
+      "item": "deepvein:brass_ingot",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "deepvein:brass_block"
+      }
+    ]
+  }
+}

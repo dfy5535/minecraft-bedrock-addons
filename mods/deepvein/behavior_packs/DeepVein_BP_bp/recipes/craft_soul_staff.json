@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_soul_staff"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BAB",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "deepvein:soul_crystal"
+      },
+      "B": {
+        "item": "deepvein:mythril_ingot"
+      },
+      "C": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "item": "deepvein:soul_staff",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:soul_crystal"
+      }
+    ]
+  }
+}

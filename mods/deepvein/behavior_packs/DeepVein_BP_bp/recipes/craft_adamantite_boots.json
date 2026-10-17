@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_adamantite_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# #",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:adamantite_ingot"
+      }
+    },
+    "result": {
+      "item": "deepvein:adamantite_boots",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:adamantite_ingot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "deepvein:void_crystal_from_void_crystal_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "deepvein:void_crystal_block"
+      }
+    ],
+    "result": {
+      "item": "deepvein:void_crystal",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "deepvein:void_crystal_block"
+      }
+    ]
+  }
+}

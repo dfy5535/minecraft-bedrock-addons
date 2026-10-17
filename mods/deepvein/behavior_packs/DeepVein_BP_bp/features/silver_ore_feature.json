@@ -1,0 +1,23 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "deepvein:silver_ore_feature"
+    },
+    "count": 8,
+    "replace_rules": [
+      {
+        "places_block": "deepvein:silver_ore",
+        "may_replace": [
+          "minecraft:stone"
+        ]
+      },
+      {
+        "places_block": "deepvein:deepslate_silver_ore",
+        "may_replace": [
+          "minecraft:deepslate"
+        ]
+      }
+    ]
+  }
+}

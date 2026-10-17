@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "deepvein:titanium_block",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.mineral"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 4.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:geometry": "geometry.deepvein.titanium_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "deepvein:titanium_block",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:map_color": "#8e98a8",
+      "minecraft:light_emission": 0,
+      "minecraft:loot": "loot_tables/blocks/titanium_block.json",
+      "tag:minecraft:is_pickaxe_item_destructible": {}
+    }
+  }
+}

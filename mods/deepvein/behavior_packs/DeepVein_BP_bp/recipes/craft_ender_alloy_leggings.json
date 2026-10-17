@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_ender_alloy_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "# #",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:ender_alloy_ingot"
+      }
+    },
+    "result": {
+      "item": "deepvein:ender_alloy_leggings",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:ender_alloy_ingot"
+      }
+    ]
+  }
+}

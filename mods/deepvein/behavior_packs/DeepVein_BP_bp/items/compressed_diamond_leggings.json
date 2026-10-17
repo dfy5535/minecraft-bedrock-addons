@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "description": {
+      "identifier": "deepvein:compressed_diamond_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:icon": "deepvein:compressed_diamond_leggings",
+      "minecraft:display_name": {
+        "value": "item.deepvein:compressed_diamond_leggings"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:rarity": "epic",
+      "minecraft:enchantable": {
+        "slot": "armor_legs",
+        "value": 18
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 7
+      },
+      "minecraft:durability": {
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        },
+        "max_durability": 675
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "deepvein:compressed_diamond"
+            ],
+            "repair_amount": "q.max_durability * 0.25"
+          },
+          {
+            "items": [
+              "deepvein:compressed_diamond_leggings"
+            ],
+            "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors"
+        ]
+      }
+    }
+  }
+}

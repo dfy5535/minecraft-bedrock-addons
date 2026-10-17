@@ -1,0 +1,5 @@
+pack.name=Balance of Fate Lucky Block
+pack.description=Tune luck from -100 to +100 with materials; 1000 random events on break
+tile.lucky:lucky_block.name=Lucky Block of Fate
+item.lucky:fate_tuner=Fate Tuner Wand
+entity.lucky:opening_actor.name=Lucky Opening Actor

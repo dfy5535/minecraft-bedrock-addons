@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "深层矿脉：纪元锻造 RP (DeepVein Odyssey v1.26.51 全3D版)",
+    "description": "全量149个128×128 3D模型（55武器与工具+44防具+50矿石与矿物块）及501套3D骨骼动画资源包\n【1.21.60 兼容版】最低支持 1.21.60（@minecraft/server 1.17.0）；已去除 2.x 专属 API 依赖，向上兼容 1.21.60+。",
+    "uuid": "ed5f3f1a-3e13-4d6e-9582-6308c9f14317",
+    "version": [
+      2,
+      2,
+      3
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "0c4e45ad-9eed-45f7-b2b3-b4114f9fb787",
+      "version": [
+        2,
+        2,
+        3
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "1d9d594d-83c9-4711-9c33-6eaaf1b82abd",
+      "version": [
+        2,
+        2,
+        3
+      ]
+    }
+  ]
+}

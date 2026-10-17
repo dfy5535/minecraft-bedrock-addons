@@ -1,0 +1,33 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:client_entity": {
+  "description": {
+   "identifier": "bt:guardian_f",
+   "min_engine_version": "1.21.60",
+   "materials": {
+    "default": "entity_alphatest"
+   },
+   "textures": {
+    "default": "textures/entity/bt/guardian_f"
+   },
+   "geometry": {
+    "default": "geometry.bt.guardian_f"
+   },
+   "animations": {
+    "idle": "animation.bt.guardian_f.idle",
+    "walk": "animation.bt.guardian_f.walk",
+    "attack": "animation.bt.guardian_f.attack",
+    "special": "animation.bt.guardian_f.special",
+    "ctrl": "controller.animation.bt.guardian"
+   },
+   "scripts": {
+    "animate": [
+     "ctrl"
+    ]
+   },
+   "render_controllers": [
+    "controller.render.bt.guardian"
+   ]
+  }
+ }
+}

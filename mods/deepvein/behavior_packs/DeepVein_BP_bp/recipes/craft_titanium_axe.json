@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_titanium_axe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "## ",
+      "#| ",
+      " | "
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:titanium_ingot"
+      },
+      "|": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "deepvein:titanium_axe",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:titanium_ingot"
+      }
+    ]
+  }
+}

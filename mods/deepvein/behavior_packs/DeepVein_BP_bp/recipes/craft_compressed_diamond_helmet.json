@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "deepvein:craft_compressed_diamond_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "deepvein:compressed_diamond"
+      }
+    },
+    "result": {
+      "item": "deepvein:compressed_diamond_helmet",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "deepvein:compressed_diamond"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "deepvein:ruby_ore",
+      "menu_category": {
+        "category": "nature",
+        "group": "minecraft:itemGroup.name.ore"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 4
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 4
+      },
+      "minecraft:geometry": "geometry.deepvein.ruby_ore",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "deepvein:ruby_ore",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:map_color": "#dc203a",
+      "minecraft:light_emission": 3,
+      "minecraft:loot": "loot_tables/blocks/ruby_ore.json",
+      "tag:minecraft:is_pickaxe_item_destructible": {}
+    }
+  }
+}
