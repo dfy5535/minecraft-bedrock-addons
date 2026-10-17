@@ -1,0 +1,21 @@
+[submodule "mods/deepvein"]
+	path = mods/deepvein
+	url = https://github.com/dfy5535/bedrock-deepvein.git
+[submodule "mods/zombie"]
+	path = mods/zombie
+	url = https://github.com/dfy5535/bedrock-zombie-evolution.git
+[submodule "mods/luckyblock"]
+	path = mods/luckyblock
+	url = https://github.com/dfy5535/bedrock-lucky-block.git
+[submodule "mods/luckyclover"]
+	path = mods/luckyclover
+	url = https://github.com/dfy5535/bedrock-lucky-clover.git
+[submodule "mods/oretrees"]
+	path = mods/oretrees
+	url = https://github.com/dfy5535/bedrock-ore-trees.git
+[submodule "mods/battletowers"]
+	path = mods/battletowers
+	url = https://github.com/dfy5535/bedrock-battle-towers.git
+[submodule "mods/rsf"]
+	path = mods/rsf
+	url = https://github.com/dfy5535/bedrock-rsf.git

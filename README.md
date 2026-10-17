@@ -1,7 +1,9 @@
-# Minecraft Bedrock Add-ons
+# Minecraft Bedrock Add-ons · 合集总仓库
 
-> 基岩版 Add-on 合集。**最低兼容基线 1.21.60，向上兼容**（已实测至 **1.26.52.3**）。
-> 每个 MOD 一个独立页面 + 独立更新日志，更新时只改那一个目录。
+> **这是总仓库（umbrella repo）**，本身不放 MOD 代码，只用 **git submodule** 管理 7 个独立仓库。
+> 每个 MOD 有自己的仓库、自己的 Releases、自己的更新日志。
+>
+> **最低兼容基线 1.21.60，向上兼容**（已实测至 **1.26.52.3**）。
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-Bedrock-3fb950?style=flat-square)](https://www.minecraft.net/)
 [![Min Version](https://img.shields.io/badge/min%20version-1.21.60-blue?style=flat-square)](#兼容性)
@@ -10,19 +12,102 @@
 
 ---
 
-## MOD 列表
+## MOD 一览
 
-| MOD | 当前版本 | 最低版本 | 一句话 | 页面 |
-|---|---|---|---|---|
-| ⛏️ **深层矿脉 · 纪元锻造**<br/>DeepVein Odyssey | `v2.2.3` | 1.21.60 | 19 种自然生成矿脉 + 完整冶炼链 + 全 3D 装备 | [**打开**](./mods/deepvein/README.md) |
-| 🧟 **僵尸纪元**<br/>Zombie Evolution | `v4.0.3` 兼容<br/>`v4.1.0` 满血 | 1.21.60<br/>1.26.51 | 智能僵尸生态 + 12 种族群 | [**打开**](./mods/zombie/README.md) |
-| 🎲 **万象天平 · 幸运方块**<br/>Balance of Fate | `v1.3.2` | 1.21.60 | 1000 种随机事件 + 幸运值动态调律 | [**打开**](./mods/luckyblock/README.md) |
-| 🍀 **幸运四叶草**<br/>Lucky Clover | `v1.1.2` | 1.21.60 | 除草掉落四叶草，祈愿触发 24 种奇遇 | [**打开**](./mods/luckyclover/README.md) |
-| 🌳 **矿物果树 3D**<br/>Ore Trees | `v1.0.0` | 1.21.60 | 八大矿物树苗 → 矿石树冠 | [**打开**](./mods/oretrees/README.md) |
-| 🏰 **战斗高塔**<br/>Battle Towers | `v2.1.3` | 1.21.60 | 50 变体纯指令高塔 + 10 原型守卫者 | [**打开**](./mods/battletowers/README.md) |
-| 🧱 **野外随机生成框架**<br/>RSF | `v2.3.1` | 1.21.60 | 全地形 4,224 座纯指令建筑 | [**打开**](./mods/rsf/README.md) |
+| MOD | 独立仓库 | 版本 | 一句话 |
+|---|---|---|---|
+| ⛏️ **深层矿脉 · 纪元锻造** | [bedrock-deepvein](https://github.com/dfy5535/bedrock-deepvein) · [Releases](https://github.com/dfy5535/bedrock-deepvein/releases) | `v2.2.3` | 19 种自然生成矿脉 + 完整冶炼链 + 全 3D 装备 |
+| 🧟 **僵尸纪元** | [bedrock-zombie-evolution](https://github.com/dfy5535/bedrock-zombie-evolution) · [Releases](https://github.com/dfy5535/bedrock-zombie-evolution/releases) | `v4.0.3` 兼容<br/>`v4.1.0` 满血 | 智能僵尸生态 + 12 种族群 |
+| 🎲 **万象天平 · 幸运方块** | [bedrock-lucky-block](https://github.com/dfy5535/bedrock-lucky-block) · [Releases](https://github.com/dfy5535/bedrock-lucky-block/releases) | `v1.3.2` | 1000 种随机事件 + 幸运值动态调律 |
+| 🍀 **幸运四叶草** | [bedrock-lucky-clover](https://github.com/dfy5535/bedrock-lucky-clover) · [Releases](https://github.com/dfy5535/bedrock-lucky-clover/releases) | `v1.1.2` | 除草掉落四叶草，祈愿触发 24 种奇遇 |
+| 🌳 **矿物果树 3D** | [bedrock-ore-trees](https://github.com/dfy5535/bedrock-ore-trees) · [Releases](https://github.com/dfy5535/bedrock-ore-trees/releases) | `v1.0.0` | 八大矿物树苗 → 矿石树冠 |
+| 🏰 **战斗高塔** | [bedrock-battle-towers](https://github.com/dfy5535/bedrock-battle-towers) · [Releases](https://github.com/dfy5535/bedrock-battle-towers/releases) | `v2.1.3` | 50 变体纯指令高塔 + 10 原型守卫者 |
+| 🧱 **野外随机生成框架** | [bedrock-rsf](https://github.com/dfy5535/bedrock-rsf) · [Releases](https://github.com/dfy5535/bedrock-rsf/releases) | `v2.3.1` | 全地形 4,224 座纯指令建筑 |
 
-> 想直接下东西？→ [**Releases**](../../releases) 里有每个版本打包好的 `.mcaddon`。
+> 想下东西直接点各仓库的 **Releases**，里面有打包好的 `.mcaddon`。
+
+---
+
+## 目录结构
+
+```
+minecraft-bedrock-addons/            ← 总仓库（本仓库）
+├── README.md                        ← 本页（索引）
+├── COMPATIBILITY.md                 ← 版本兼容矩阵与测试证据
+├── NOTICE.md                        ← 授权状况说明
+├── LICENSE                          ← MIT（代码 / JSON）
+├── LICENSE-ASSETS.md                ← CC-BY-4.0（贴图 / 3D 模型）
+├── .gitmodules                      ← 子模块清单
+├── docs/                            ← 兼容修复报告、校验报告
+└── mods/
+    ├── deepvein      → bedrock-deepvein          （子模块）
+    ├── zombie        → bedrock-zombie-evolution  （子模块）
+    ├── luckyblock    → bedrock-lucky-block       （子模块）
+    ├── luckyclover   → bedrock-lucky-clover      （子模块）
+    ├── oretrees      → bedrock-ore-trees         （子模块）
+    ├── battletowers  → bedrock-battle-towers     （子模块）
+    └── rsf           → bedrock-rsf               （子模块）
+```
+
+---
+
+## 克隆
+
+```bash
+# 连子模块一起拉
+git clone --recurse-submodules https://github.com/dfy5535/minecraft-bedrock-addons.git
+
+# 或者已经克隆了但子模块是空的
+git submodule update --init --recursive
+```
+
+只想拿某个 MOD？
+
+```bash
+git clone https://github.com/dfy5535/bedrock-deepvein.git
+```
+
+---
+
+## 如何更新（两段式）
+
+**① 在对应的 MOD 仓库里改** —— 那才是真正的代码所在：
+
+```bash
+git clone https://github.com/dfy5535/bedrock-deepvein.git
+cd bedrock-deepvein
+
+# 改 behavior_packs/ 或 resource_packs/
+# 重新打包到 dist/
+# 在 CHANGELOG.md 顶部追加一节，改 README.md 里的版本号
+
+git add -A
+git commit -m "feat: v2.2.4 — 一句话说清改了什么"
+git tag v2.2.4
+git push && git push --tags
+```
+
+然后在该仓库的 **Releases** 里为新 tag 附上 `dist/` 的 `.mcaddon`。
+
+**② 回到总仓库，把子模块指针推到新提交**：
+
+```bash
+cd minecraft-bedrock-addons
+
+git submodule update --remote mods/deepvein     # 拉到该仓库最新
+git add mods/deepvein
+git commit -m "chore(deepvein): bump to v2.2.4"
+git push
+```
+
+> **为什么要这一步？** 子模块记录的是「某个仓库的某个 commit」的指针。
+> 不去总仓库 bump，总仓库就还指着旧版本 —— 这正是总仓库「管理」各子仓库的方式。
+
+### 批量检查各 MOD 有没有新提交
+
+```bash
+git submodule foreach 'echo "=== $name ===" && git fetch -q && git log --oneline HEAD..origin/main | head -5'
+```
 
 ---
 
@@ -31,64 +116,23 @@
 | 项 | 说明 |
 |---|---|
 | **最低目标** | Minecraft Bedrock **1.21.60** |
-| **脚本 API 基线** | `@minecraft/server` **1.17.0**（官方 `scripting/versioning.md` 明确 `1.17.0 ↔ 1.21.60`） |
+| **脚本 API 基线** | `@minecraft/server` **1.17.0**（官方映射：`1.17.0 ↔ 1.21.60`） |
 | **实测最高** | **1.26.52.3**（全部 MOD 在该版本真机启动、加载、跑通） |
-| **向上兼容原理** | 声明 `1.x.x` 的包会在「最大化 v1 语义」的环境中运行，因此 1.21.60 与 1.26.x 走**同一条代码路径**，无需维护两份实现 |
+| **向上兼容原理** | 声明 `1.x.x` 的包在「最大化 v1 语义」环境运行 → 1.21.60 与 1.26.x 走**同一条代码路径** |
 
 逐项证据与测试矩阵见 [COMPATIBILITY.md](./COMPATIBILITY.md)。
 
 ---
 
-## 目录结构
+## 发布纪律
 
-```
-.
-├── README.md                 ← 本页（总索引）
-├── COMPATIBILITY.md          ← 版本兼容矩阵与测试证据
-├── NOTICE.md                 ← 各 MOD 授权状况说明
-├── LICENSE                   ← 代码 / JSON：MIT
-├── LICENSE-ASSETS            ← 贴图 / 3D 模型：CC-BY-4.0
-├── docs/                     ← 兼容修复报告、校验报告
-└── mods/
-    └── <mod>/
-        ├── README.md         ← 该 MOD 的页面
-        ├── CHANGELOG.md      ← 该 MOD 的更新日志
-        ├── behavior_packs/   ← 行为包源码
-        ├── resource_packs/   ← 资源包源码
-        └── dist/             ← 打包好的 .mcaddon
-```
+每次更新一个 MOD，必须同时：
 
----
-
-## 如何更新一个 MOD
-
-每个 MOD 是**完全独立**的一页，更新时只动它自己的目录，互不影响：
-
-1. **改源码** — 编辑 `mods/<mod>/behavior_packs/` 或 `resource_packs/`
-2. **重新打包** — 产物放进 `mods/<mod>/dist/`（新的 `.mcaddon` 建议带上版本号）
-3. **写更新日志** — 在 `mods/<mod>/CHANGELOG.md` **顶部**追加一节：
-
-   ```markdown
-   ## v2.2.4 — 2026-11-01
-
-   - 🐛 **修复** — 一句话说清改了什么、为什么
-   - 🔧 **变更** — 行为/数值/结构上的变化
-   ```
-
-4. **更新版本号** — 改 `mods/<mod>/README.md` 顶部那行 `当前版本`
-5. **提交并打标签**
-
-   ```bash
-   git add mods/<mod>
-   git commit -m "feat(<mod>): v2.2.4 — 简述"
-   git tag <mod>/v2.2.4
-   git push && git push --tags
-   ```
-
-6. 在 Releases 里为这个 tag 附上 `dist/` 里对应的 `.mcaddon`
-
-> **发布纪律**：每次更新都必须同时更换 `header.uuid` 与 `header.version`，
-> 并在出包后核对产物哈希确实变了 —— 否则玩家可能装到缓存的旧包。
+- [ ] 更换 `header.uuid` 与 `header.version`
+- [ ] 出包后核对产物哈希**确实变了**（否则玩家可能装到缓存的旧包）
+- [ ] 在 `CHANGELOG.md` 顶部写清「更新了什么」
+- [ ] 在 MOD 仓库打 tag 并建 Release
+- [ ] 回总仓库 bump 子模块指针
 
 ---
 
@@ -103,7 +147,7 @@
 ## 许可证
 
 - **代码与 JSON**：MIT — 见 [LICENSE](./LICENSE)
-- **贴图与 3D 模型**：CC-BY-4.0 — 见 [LICENSE-ASSETS](./LICENSE-ASSETS.md)
-- 各 MOD 原始 manifest 中的授权声明见 [NOTICE.md](./NOTICE.md)
+- **贴图与 3D 模型**：CC-BY-4.0 — 见 [LICENSE-ASSETS.md](./LICENSE-ASSETS.md)
+- 各 MOD 原始 manifest 的授权声明见 [NOTICE.md](./NOTICE.md)
 
 使用/转载美术资源时请保留出处。
