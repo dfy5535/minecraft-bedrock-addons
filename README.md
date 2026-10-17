@@ -103,7 +103,7 @@
 ## 许可证
 
 - **代码与 JSON**：MIT — 见 [LICENSE](./LICENSE)
-- **贴图与 3D 模型**：CC-BY-4.0 — 见 [LICENSE-ASSETS](./LICENSE-ASSETS)
+- **贴图与 3D 模型**：CC-BY-4.0 — 见 [LICENSE-ASSETS](./LICENSE-ASSETS.md)
 - 各 MOD 原始 manifest 中的授权声明见 [NOTICE.md](./NOTICE.md)
 
 使用/转载美术资源时请保留出处。

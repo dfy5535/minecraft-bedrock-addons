@@ -70,4 +70,4 @@ battletowers/
 ## 许可证
 
 代码与 JSON：**MIT**（见 [LICENSE](../../LICENSE)）  
-贴图与 3D 模型：**CC-BY-4.0**（见 [LICENSE-ASSETS](../../LICENSE-ASSETS)）
+贴图与 3D 模型：**CC-BY-4.0**（见 [LICENSE-ASSETS](../../LICENSE-ASSETS.md)）

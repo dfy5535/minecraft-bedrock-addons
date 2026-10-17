@@ -1,6 +1,6 @@
 # 授权状况说明（NOTICE）
 
-本仓库整体采用 **MIT（代码）+ CC-BY-4.0（美术资源）**，见 [LICENSE](./LICENSE) 与 [LICENSE-ASSETS](./LICENSE-ASSETS)。
+本仓库整体采用 **MIT（代码）+ CC-BY-4.0（美术资源）**，见 [LICENSE](./LICENSE) 与 [LICENSE-ASSETS](./LICENSE-ASSETS.md)。
 
 下表是各 MOD **原始 manifest 里写的授权字段**，原样记录以便追溯。
 如果你是本仓库所有者并希望调整某个 MOD 的授权，改 manifest 的 `metadata.license` 并同步更新本表即可。
