@@ -29,3 +29,8 @@
 - Minecraft 原版素材（`minecraft:*` 引用的贴图/模型/音效）版权归 **Mojang Studios / Microsoft**。
 - 本仓库只包含作者原创的扩展内容，不包含任何原版素材副本。
 - 引用原版资源属于正常 Add-on 开发方式，不构成对原版素材的再分发。
+
+## 许可证适用范围
+
+- **`LICENSE`（MIT）** 覆盖：所有 `.js` 脚本、`.json` 数据与配置文件、`.mcfunction` 指令文件。
+- **`LICENSE-ASSETS`（CC-BY-4.0）** 覆盖：所有 `.png` 贴图、3D 模型几何、动画、粒子定义。
