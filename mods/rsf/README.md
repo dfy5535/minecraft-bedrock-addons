@@ -30,7 +30,7 @@
 
 ## 下载
 
-- `dist/rsf-v2.3.1-全地形4224建筑.mcaddon` — v2.3.1 · 全地形 4224 建筑
+- `dist/rsf-v2.3.1-all-terrain-4224-buildings.mcaddon` — v2.3.1 · 全地形 4224 建筑
 - `dist/rsf-v2.1.0.mcaddon` — v2.1.0 · 旧版归档
 - `dist/rsf-v2.0.1.mcaddon` — v2.0.1 · 旧版归档
 
