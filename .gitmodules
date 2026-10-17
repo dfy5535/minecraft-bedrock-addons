@@ -22,3 +22,6 @@
 [submodule "mods/affixforge"]
 	path = mods/affixforge
 	url = https://github.com/dfy5535/bedrock-affix-forge.git
+[submodule "mods/kfe"]
+	path = mods/kfe
+	url = https://github.com/dfy5535/bedrock-kfe-food-evolution.git
