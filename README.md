@@ -18,7 +18,7 @@
 |---|---|---|---|
 | ⛏️ **深层矿脉 · 纪元锻造** | [bedrock-deepvein](https://github.com/dfy5535/bedrock-deepvein) · [Releases](https://github.com/dfy5535/bedrock-deepvein/releases) | `v2.2.3` | 19 种自然生成矿脉 + 完整冶炼链 + 全 3D 装备 |
 | 🧟 **僵尸纪元** | [bedrock-zombie-evolution](https://github.com/dfy5535/bedrock-zombie-evolution) · [Releases](https://github.com/dfy5535/bedrock-zombie-evolution/releases) | `v4.0.3` 兼容<br/>`v4.1.0` 满血<br/>`v3.5` 修复版 | 智能僵尸生态 + 12 种族群 |
-| 🎲 **万象天平 · 幸运方块** | [bedrock-lucky-block](https://github.com/dfy5535/bedrock-lucky-block) · [Releases](https://github.com/dfy5535/bedrock-lucky-block/releases) | `v1.3.2` | 1000 种随机事件 + 幸运值动态调律 |
+| 🎲 **万象天平 · 幸运方块** | [bedrock-lucky-block](https://github.com/dfy5535/bedrock-lucky-block) · [Releases](https://github.com/dfy5535/bedrock-lucky-block/releases) | `v1.6.0` | 1000 种随机事件 + 128 座/地形遗落之地 |
 | 🍀 **幸运四叶草** | [bedrock-lucky-clover](https://github.com/dfy5535/bedrock-lucky-clover) · [Releases](https://github.com/dfy5535/bedrock-lucky-clover/releases) | `v1.1.2` | 除草掉落四叶草，祈愿触发 24 种奇遇 |
 | 🌳 **矿物果树 3D** | [bedrock-ore-trees](https://github.com/dfy5535/bedrock-ore-trees) · [Releases](https://github.com/dfy5535/bedrock-ore-trees/releases) | `v1.0.0` | 八大矿物树苗 → 矿石树冠 |
 | 🏰 **战斗高塔** | [bedrock-battle-towers](https://github.com/dfy5535/bedrock-battle-towers) · [Releases](https://github.com/dfy5535/bedrock-battle-towers/releases) | `v2.1.3` | 50 变体纯指令高塔 + 10 原型守卫者 |
