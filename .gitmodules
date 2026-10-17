@@ -19,3 +19,6 @@
 [submodule "mods/rsf"]
 	path = mods/rsf
 	url = https://github.com/dfy5535/bedrock-rsf.git
+[submodule "mods/affixforge"]
+	path = mods/affixforge
+	url = https://github.com/dfy5535/bedrock-affix-forge.git
