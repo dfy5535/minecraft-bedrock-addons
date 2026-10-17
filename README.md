@@ -23,7 +23,7 @@
 | 🌳 **矿物果树 3D** | [bedrock-ore-trees](https://github.com/dfy5535/bedrock-ore-trees) · [Releases](https://github.com/dfy5535/bedrock-ore-trees/releases) | `v1.0.0` | 八大矿物树苗 → 矿石树冠 |
 | 🏰 **战斗高塔** | [bedrock-battle-towers](https://github.com/dfy5535/bedrock-battle-towers) · [Releases](https://github.com/dfy5535/bedrock-battle-towers/releases) | `v2.1.3` | 50 变体纯指令高塔 + 10 原型守卫者 |
 | 🧪 **词缀熔炉 · AffixForge** | [bedrock-affix-forge](https://github.com/dfy5535/bedrock-affix-forge) · [Releases](https://github.com/dfy5535/bedrock-affix-forge/releases) | `v1.0.0` | 随机装备正负词条 · 1148 条词条库 · 中/日/英 × 经典/第三方 |
-| 🍖 **KIRA 食品进化 · KFE** | [bedrock-kfe-food-evolution](https://github.com/dfy5535/bedrock-kfe-food-evolution) · [Releases](https://github.com/dfy5535/bedrock-kfe-food-evolution/releases) | `v6.0.1` | 食品八档品质 · 经典版 / 第三方兼容版 |
+| 🍖 **KIRA 食品进化 · KFE** | [bedrock-kfe-food-evolution](https://github.com/dfy5535/bedrock-kfe-food-evolution) · [Releases](https://github.com/dfy5535/bedrock-kfe-food-evolution/releases) | `v6.0.2` | 食品八档品质 · 经典版 / 第三方兼容版 |
 | 🧱 **野外随机生成框架** | [bedrock-rsf](https://github.com/dfy5535/bedrock-rsf) · [Releases](https://github.com/dfy5535/bedrock-rsf/releases) | `v2.3.1` | 全地形 4,224 座纯指令建筑 |
 
 > 想下东西直接点各仓库的 **Releases**，里面有打包好的 `.mcaddon`。
